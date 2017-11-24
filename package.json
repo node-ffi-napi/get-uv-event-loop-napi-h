@@ -2,7 +2,7 @@
   "author": "Anna Henningsen <anna@addaleax.net>",
   "name": "get-uv-event-loop-napi-h",
   "license": "MIT",
-  "description": "C function to get a symbol from the current process",
+  "description": "C function to get the current libuv event loop for N-API",
   "keywords": [
     "c",
     "uv",
@@ -10,7 +10,7 @@
     "loop",
     "napi"
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": {
     "type": "git",
     "url": "git://github.com/node-ffi-napi/get-uv-event-loop-napi-h.git"
