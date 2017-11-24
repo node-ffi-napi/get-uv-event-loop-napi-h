@@ -10,14 +10,14 @@
     "loop",
     "napi"
   ],
-  "version": "1.0.2",
+  "version": "1.0.3",
   "repository": {
     "type": "git",
     "url": "git://github.com/node-ffi-napi/get-uv-event-loop-napi-h.git"
   },
   "main": "get-paths.js",
   "scripts": {
-    "test": "reverse-test weak-napi"
+    "test": "reverse-test setimmediate-napi"
   },
   "dependencies": {
     "get-symbol-from-current-process-h": "^1.0.1"
