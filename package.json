@@ -20,7 +20,7 @@
     "test": "reverse-test weak-napi"
   },
   "dependencies": {
-    "get-symbol-from-current-process-h": "^1.0.0"
+    "get-symbol-from-current-process-h": "^1.0.1"
   },
   "devDependencies": {
     "reverse-test": "^1.1.0"
