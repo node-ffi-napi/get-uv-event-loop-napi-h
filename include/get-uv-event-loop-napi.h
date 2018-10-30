@@ -19,7 +19,7 @@ uv_loop_t* get_uv_event_loop(napi_env env) {
   if (napi_version < 2)
     return uv_default_loop();
 
-#if defined(NAPI_VERSION) && NAPI_VERSION < 2
+#if !defined(NAPI_VERSION) || NAPI_VERSION < 2
   napi_get_uv_event_loop__ = (get_uv_event_loop_fn)
       get_symbol_from_current_process("napi_get_uv_event_loop");
 #else
